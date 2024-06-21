@@ -1,0 +1,149 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333; /* Professional default text color */
+  background-color: #f0f0f0;
+}
+h1 {
+  color: #007bff; /* Text color for h1 */
+}
+/* Main container */
+.app {
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+header {
+  /* Additional styles as needed */
+}
+
+/* Search input and button */
+.search-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #333; /* Text color for input field */
+}
+
+.find-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.find-button:hover {
+  background-color: #0056b3;
+}
+
+/* Word definition section */
+.word-definition {
+  margin-top: 20px;
+}
+
+.word {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; /* Text color for word */
+}
+
+.phonetics {
+  margin-bottom: 20px;
+}
+
+.phonetic-item {
+  margin-bottom: 10px;
+}
+
+.phonetic-item p {
+  margin-bottom: 5px;
+}
+
+.audio-control {
+  margin-top: 5px;
+}
+
+.source-url {
+  font-size: 14px;
+  color: #666; /* Color for source URLs */
+}
+
+.meanings {
+  margin-bottom: 20px;
+}
+
+.part-of-speech {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Text color for part of speech */
+}
+
+.definition-text {
+  margin-bottom: 5px;
+  color: #333; /* Text color for definition */
+}
+
+.example-text {
+  color: #666; /* Color for example text */
+  margin-bottom: 5px;
+}
+
+.synonyms {
+  font-style: italic;
+  color: #666; /* Color for synonyms */
+}
+
+/* Sources */
+.sources {
+  margin-top: 20px;
+}
+
+.sources-heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333; /* Text color for sources heading */
+}
+
+.sources-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.source-item {
+  margin-bottom: 5px;
+}
+
+.source-item a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.source-item a:hover {
+  text-decoration: underline;
+}
